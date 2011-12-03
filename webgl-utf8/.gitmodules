@@ -1,0 +1,6 @@
+[submodule "js/externals/three.js"]
+	path = js/externals/three.js
+	url = https://github.com/mrdoob/three.js
+[submodule "js/externals/RequestAnimationFrame"]
+	path = js/externals/RequestAnimationFrame
+	url = git://gist.github.com/838785.git
