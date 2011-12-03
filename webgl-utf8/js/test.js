@@ -94,7 +94,7 @@ function init() {
     
     var loader = new THREE.UTF8Loader();
     
-    loader.load('/models/duck/duck.utf8', duckLoaded,
+    loader.load('models/duck/duck.utf8', duckLoaded,
       { offsets: [-0.000000,-0.000000,-0.000000,-0.001953,-0.001465,1.000000,1.000000,1.000000],
         scales: [1000.000000,1000.000000,1000.000000,0.995117,0.997559,2.000000,2.000000,2.000000],
         bits: [14,14,14,10,10,10,10,10] }
