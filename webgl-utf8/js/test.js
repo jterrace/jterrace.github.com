@@ -67,7 +67,7 @@ function animate() {
 }
 
 function duckLoaded( geometry ) {
-    var material = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture( "/models/duck/duck.jpg" ) } );
+    var material = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture( "models/duck/duck.jpg" ) } );
     var mesh = new THREE.Mesh( geometry, material );
     mesh.scale.set(100, 100, 100);
     scene.add(mesh);
